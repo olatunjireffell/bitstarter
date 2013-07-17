@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.12/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.12/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json /home/ubuntu/bitstarter/package.json
+5 warn package.json node-js-sample@0.0.1 No readme data.
+6 verbose from cache /home/ubuntu/bitstarter/package.json
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express@2.5.x', null ]
+9 verbose cache add name=undefined spec="express@2.5.x" args=["express@2.5.x",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express@2.5.x',
+10 verbose parsed url   path: 'express@2.5.x',
+10 verbose parsed url   href: 'express@2.5.x' }
+11 verbose cache add name="express" spec="2.5.x" args=["express","2.5.x"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '2.5.x',
+12 verbose parsed url   path: '2.5.x',
+12 verbose parsed url   href: '2.5.x' }
+13 verbose addNamed [ 'express', '2.5.x' ]
+14 verbose addNamed [ null, '>=2.5.0- <2.6.0-' ]
+15 silly lockFile 38bf5a2e-express-2-5-x express@2.5.x
+16 verbose lock express@2.5.x /home/ubuntu/.npm/38bf5a2e-express-2-5-x.lock
+17 silly lockFile 38bf5a2e-express-2-5-x express@2.5.x
+18 error Error: EACCES, open '/home/ubuntu/.npm/38bf5a2e-express-2-5-x.lock'
+18 error  { [Error: EACCES, open '/home/ubuntu/.npm/38bf5a2e-express-2-5-x.lock']
+18 error   errno: 3,
+18 error   code: 'EACCES',
+18 error   path: '/home/ubuntu/.npm/38bf5a2e-express-2-5-x.lock' }
+19 error Please try running this command again as root/Administrator.
+20 error System Linux 3.2.0-40-virtual
+21 error command "/home/ubuntu/.nvm/v0.10.12/bin/node" "/home/ubuntu/.nvm/v0.10.12/bin/npm" "install" "express"
+22 error cwd /home/ubuntu/bitstarter
+23 error node -v v0.10.12
+24 error npm -v 1.2.32
+25 error path /home/ubuntu/.npm/38bf5a2e-express-2-5-x.lock
+26 error code EACCES
+27 error errno 3
+28 error stack Error: EACCES, open '/home/ubuntu/.npm/38bf5a2e-express-2-5-x.lock'
+29 verbose exit [ 3, true ]
